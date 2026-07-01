@@ -21,21 +21,21 @@ const seed = async () => {
   console.log("Existing seed data cleared.");
 
   // Create the admin account.
-  const adminPassword = await bcrypt.hash("Admin@1234", 12);
+  // Passwords are passed as plain text — the User model's pre-save hook
+  // handles hashing automatically. Do NOT pre-hash here.
   const admin = await User.create({
     name: "Klinam Admin",
     phone: "+2348000000001",
-    password: adminPassword,
+    password: "Admin@1234",
     role: ROLES.ADMIN,
   });
   console.log(`Admin created — Phone: ${admin.phone} | Password: Admin@1234`);
 
   // Create a sample caretaker.
-  const caretakerPassword = await bcrypt.hash("Caretaker@1234", 12);
   const caretaker = await User.create({
     name: "Success Akporuovo",
     phone: "+2348000000002",
-    password: caretakerPassword,
+    password: "Caretaker@1234",
     role: ROLES.CARETAKER,
   });
   console.log(`Caretaker created — Phone: ${caretaker.phone} | Password: Caretaker@1234`);

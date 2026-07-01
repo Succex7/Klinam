@@ -5,3 +5,19 @@
 {"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-06-30 23:56:02"}
 {"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-06-30 23:58:39"}
 {"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-06-30 23:58:39"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-07-01 02:21:19"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 02:21:19"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:07:02"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:07:02"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-02.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:07:50"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:07:50"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:11:49"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:11:49"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:12:59"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:12:59"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:50:46"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:50:46"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-02.4swpmrp.mongodb.net","timestamp":"2026-07-01 14:51:02"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-07-01 14:51:02"}
+{"level":"info","message":"[NOTIFICATION] Bin reported full — Property: \"Success test hostel\" | Caretaker: Success Oghene-Gare (+2347066878103)","timestamp":"2026-07-01 14:51:15"}
+{"level":"error","message":"502 - Failed to initialise payment mandate. Please try again.","stack":"Error: Failed to initialise payment mandate. Please try again.\n    at C:\\Users\\Success\\klinam\\klinam\\src\\controllers\\payment.controller.js:27:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2026-07-01 16:04:00"}

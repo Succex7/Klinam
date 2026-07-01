@@ -1,1 +1,2 @@
 {"level":"error","message":"MongoDB connection failed: bad auth : Authentication failed.","timestamp":"2026-06-30 23:12:52"}
+{"level":"error","message":"502 - Failed to initialise payment mandate. Please try again.","stack":"Error: Failed to initialise payment mandate. Please try again.\n    at C:\\Users\\Success\\klinam\\klinam\\src\\controllers\\payment.controller.js:27:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2026-07-01 16:04:00"}
