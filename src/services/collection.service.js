@@ -39,7 +39,7 @@ const reportBinFull = async (propertyId, caretakerId, note = null) => {
   }
 
   // Only allow reporting if the property has an active subscription.
-  const subscription = await Subscription.findOne({
+  /* const subscription = await Subscription.findOne({
     property: propertyId,
     status: SUBSCRIPTION_STATUS.ACTIVE,
   });
@@ -50,7 +50,7 @@ const reportBinFull = async (propertyId, caretakerId, note = null) => {
     );
     error.statusCode = 403;
     throw error;
-  }
+  } */
 
   const now = new Date();
 
