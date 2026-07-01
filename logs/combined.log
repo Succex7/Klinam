@@ -1,0 +1,7 @@
+{"level":"error","message":"MongoDB connection failed: bad auth : Authentication failed.","timestamp":"2026-06-30 23:12:52"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-06-30 23:15:15"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-06-30 23:15:15"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-02.4swpmrp.mongodb.net","timestamp":"2026-06-30 23:56:02"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-06-30 23:56:02"}
+{"level":"info","message":"MongoDB connected: ac-q2nojup-shard-00-00.4swpmrp.mongodb.net","timestamp":"2026-06-30 23:58:39"}
+{"level":"info","message":"Klinam server running on port 5000 in development mode","timestamp":"2026-06-30 23:58:39"}
